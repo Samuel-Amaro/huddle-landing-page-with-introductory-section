@@ -34,7 +34,7 @@ Users should be able to:
 
 #### Result Desktop
 
-![](./printscreens/result-desktop.png)
+![](./printscreens/desktop.png)
 
 ### Links
 

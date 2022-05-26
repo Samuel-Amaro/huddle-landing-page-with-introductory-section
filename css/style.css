@@ -52,7 +52,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .container-main__header{
-    margin-bottom: 50px;
+    margin-bottom: 95px;/*50px*/
 }
 
 .container-main__flex-container{
@@ -148,12 +148,11 @@ h1,h2,h3,h4,h5,h6{
 /**BREAKPOINT 1100px**/
 @media screen and (min-width: 1100px){
     body{
-        height: 100vh;
+        /*height: 100vh;*/
         background-image: url(../images/bg-desktop.svg);
         background-repeat: no-repeat;
-        background-origin: padding-box;
-        background-size: 83% 100vh;
-        background-clip: padding-box;
+        background-size: 100% 100%;
+        min-height: 100vh;
     }
 
     .container-main__content{
@@ -163,7 +162,7 @@ h1,h2,h3,h4,h5,h6{
     }
 
     .container-main{
-        height: 100vh;
+        /*height: 100vh;*/
         /*display: flex;
         align-items: center;
         */
@@ -172,7 +171,7 @@ h1,h2,h3,h4,h5,h6{
     .container-main__img{
         /*TODO*/
         display: block;
-        flex: 1;
+        flex: 60%;
         margin-bottom: 0;
     }
 
@@ -181,8 +180,8 @@ h1,h2,h3,h4,h5,h6{
     }
 
     .container-main__informations{
-        flex: 1;
-        padding: 25px 0 0 0;
+        flex: 1 40%;
+        padding: 38px 0 0 0;
        /* margin-left: 30px;*/
     }
 
@@ -191,18 +190,18 @@ h1,h2,h3,h4,h5,h6{
     }
     
     .container-main__flex-container{
-        padding: 35px 70px 35px 70px;
+        padding: 50px 80px 50px 80px;
     }
 
     .container-main__title{
-        font-size: 2.8rem;
+        font-size: 2.5rem;
         text-align: left;
-        line-height: 1.2;
+        line-height: 1.5;
     }
 
     .container-main__description{
         text-align: left;
-        font-size: 1.3rem;
+        font-size: 18px;
     }
 
     .container-main__btn{
@@ -215,4 +214,6 @@ h1,h2,h3,h4,h5,h6{
         width: 200px;
     }
 }
+
+
 
